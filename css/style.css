@@ -502,3 +502,196 @@ details[open]{
     50%{ transform: translateY(-10px); }
     100%{ transform: translateY(0px); }
 }
+/* =====================================
+   ENVELOPE UPGRADE
+===================================== */
+
+/* ซองจดหมายใหญ่ขึ้น */
+.envelope{
+    width: 520px;
+    height: 340px;
+
+    background: linear-gradient(145deg,#1f2937,#111827);
+
+    border-radius: 25px;
+
+    border: 2px solid rgba(76,201,240,.5);
+
+    box-shadow:
+        0 0 20px rgba(76,201,240,.4),
+        0 0 60px rgba(114,9,183,.3),
+        0 25px 60px rgba(0,0,0,.5);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+
+    text-align:center;
+
+    transition:.4s;
+
+    animation:
+        float 3s ease-in-out infinite,
+        glow 2.5s ease-in-out infinite;
+}
+
+/* เวลาเอาเมาส์ชี้ */
+.envelope:hover{
+
+    transform:scale(1.05);
+
+    box-shadow:
+        0 0 35px #4cc9f0,
+        0 0 80px #7209b7,
+        0 35px 80px rgba(0,0,0,.6);
+
+}
+
+/* ข้อความ */
+.envelope h2{
+
+    font-size:34px;
+    margin-bottom:15px;
+
+}
+
+.envelope p{
+
+    font-size:22px;
+    color:#d1d5db;
+
+}
+
+/* ปุ่ม */
+.open-btn{
+
+    margin-top:30px;
+
+    padding:18px 40px;
+
+    font-size:20px;
+    font-weight:bold;
+
+    border:none;
+    border-radius:15px;
+
+    background:linear-gradient(90deg,#4cc9f0,#7209b7);
+
+    color:white;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    box-shadow:0 10px 30px rgba(76,201,240,.35);
+
+}
+
+.open-btn:hover{
+
+    transform:scale(1.08);
+
+    box-shadow:
+        0 0 25px #4cc9f0,
+        0 0 50px #7209b7;
+
+}
+
+/* เรืองแสง */
+@keyframes glow{
+
+    0%{
+
+        box-shadow:
+            0 0 15px rgba(76,201,240,.3);
+
+    }
+
+    50%{
+
+        box-shadow:
+            0 0 35px rgba(76,201,240,.8),
+            0 0 60px rgba(114,9,183,.5);
+
+    }
+
+    100%{
+
+        box-shadow:
+            0 0 15px rgba(76,201,240,.3);
+
+    }
+
+}
+
+/* ปุ่มกลับ */
+
+.back-btn{
+
+    position:fixed;
+
+    top:25px;
+    left:25px;
+
+    z-index:9999;
+
+    padding:14px 28px;
+
+    border:none;
+
+    border-radius:15px;
+
+    font-size:18px;
+    font-weight:bold;
+
+    background:linear-gradient(90deg,#4cc9f0,#7209b7);
+
+    color:white;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.3);
+
+}
+
+.back-btn:hover{
+
+    transform:translateY(-3px) scale(1.05);
+
+    box-shadow:
+        0 0 25px #4cc9f0,
+        0 0 40px #7209b7;
+
+}
+/* ===============================
+   RAINBOW FOOTER
+================================== */
+
+.footer{
+    width:100%;
+    background:linear-gradient(90deg,#ff4d6d,#ffb703,#4cc9f0,#7209b7);
+
+    color:white;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    padding:25px 20px;
+
+    font-size:20px;
+    font-weight:bold;
+
+    text-align:center;
+
+    margin-top:80px;
+
+    box-shadow:0 -8px 25px rgba(0,0,0,.15);
+}
+
+.footer p{
+    margin:0;
+}
