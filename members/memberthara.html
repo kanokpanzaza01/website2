@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member Profile</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+<!-- BACKGROUND -->
+<div class="overlay"></div>
+
+<div class="scene">
+
+    <!-- ENVELOPE -->
+    <div class="envelope" id="envelope">
+
+        <div class="envelope-front">
+            📩 PROFILE ENVELOPE
+            <p>Click to unlock resume</p>
+        </div>
+
+        <div class="envelope-back">
+            <button class="open-btn" onclick="openResume()">
+                📖 เปิดดูประวัติ
+            </button>
+        </div>
+
+    </div>
+
+    <!-- RESUME CARD -->
+    <div class="resume-popup" id="resume">
+
+        <div class="resume-container">
+
+            <!-- LEFT SIDE -->
+            <div class="resume-left">
+
+                <img src="../images/member02.png" alt="profile">
+
+                <h1>ธาราวดี บุตรดาบุตร</h1>
+                <p class="role">Web Developer / IT Support</p>
+
+                <div class="contact">
+                    <h2>Contact</h2>
+                    <p>📞 +66 96-042-5702</p>
+                    <p>📧 yenchit.maneemon@gmail.com</p>
+                    <p>📍 กรุงเทพมหานคร</p>
+                    <p>🌏 สัญชาติไทย</p>
+                    <p>💻 GitHub : thara-jjj</p>
+                </div>
+
+                <div class="skills">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Visual Studio Code</li>
+                        <li>WordPress</li>
+                        <li>Microsoft Word</li>
+                        <li>Microsoft Excel</li>
+                        <li>Microsoft PowerPoint</li>
+                        <li>Canva</li>
+                        <li>Blender</li>
+                    </ul>
+                </div>
+
+                <div class="languages">
+                    <h2>Languages</h2>
+                    <ul>
+                        <li>ไทย (Native)</li>
+                        <li>อังกฤษ (Basic)</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- RIGHT SIDE -->
+            <div class="resume-right">
+
+                <details open>
+                    <summary>👤 About Me</summary>
+                    <p>
+                        นักศึกษาสาขาเทคโนโลยีสารสนเทศ
+                        สนใจด้านการพัฒนาเว็บไซต์ การออกแบบสื่อดิจิทัล
+                        และการจัดการข้อมูล มีความรับผิดชอบ สามารถทำงานร่วมกับผู้อื่นได้ดี
+                        พร้อมเรียนรู้เทคโนโลยีใหม่ ๆ เพื่อพัฒนาทักษะอย่างต่อเนื่อง
+                    </p>
+                </details>
+
+                <details>
+                    <summary>🎓 Education</summary>
+                    <p>มหาวิทยาลัยสวนดุสิต</p>
+                    <p>คณะวิทยาศาสตร์และเทคโนโลยี สาขาเทคโนโลยีสารสนเทศ</p>
+                    <p>2568 - ปัจจุบัน | GPA 3.47</p>
+                    <br>
+                    <p>โรงเรียนชุมพลโพนพิสัย</p>
+                    <p>แผนการเรียน วิทยาศาสตร์ - คณิตศาสตร์</p>
+                    <p>2561 - 2567 | GPA 3.33</p>
+                </details>
+
+                <details>
+                    <summary>💼 Experience</summary>
+                    <ul>
+                        <li>ศูนย์ทดสอบ มหาวิทยาลัยสวนดุสิต - ผู้ช่วยฝ่ายประสานงาน</li>
+                        <li>ประสานงานระหว่างบุคลากร นักศึกษา และผู้เข้าสอบ</li>
+                        <li>สนับสนุนการดำเนินงานด้านการจัดสอบ</li>
+                        <li>จัดเตรียมข้อมูลและเอกสารที่เกี่ยวข้องกับการดำเนินงาน</li>
+                        <br>
+                        <li>สำนักงานส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยสวนดุสิต</li>
+                        <li>ผู้ช่วยฝ่ายประสานงาน</li>
+                        <li>สนับสนุนการจัดทำและปรับปรุงข้อมูลเว็บไซต์</li>
+                        <li>จัดทำสื่อประชาสัมพันธ์และอินโฟกราฟิก</li>
+                        <li>ตรวจสอบและอัปเดตข้อมูลเว็บไซต์</li>
+                        <li>สนับสนุนงานด้านเทคโนโลยีสารสนเทศ</li>
+                    </ul>
+                </details>
+
+                <details>
+                    <summary>🚀 Projects</summary>
+                    <ul>
+                        <li>Website HTML / CSS</li>
+                        <li>WordPress Website</li>
+                        <li>Website Content Management</li>
+                        <li>Infographic Design</li>
+                        <li>University IT Support</li>
+                    </ul>
+                </details>
+
+                <details>
+                    <summary>🎯 Activities</summary>
+                    <ul>
+                        <li>ผู้ช่วยดำเนินงานศูนย์ทดสอบ มหาวิทยาลัยสวนดุสิต</li>
+                        <li>สนับสนุนงานสำนักงานส่งเสริมวิชาการและงานทะเบียน</li>
+                        <li>ออกแบบสื่อประชาสัมพันธ์และอินโฟกราฟิก</li>
+                        <li>พัฒนาและปรับปรุงเว็บไซต์</li>
+                    </ul>
+                </details>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="../js/script.js"></script>
+
+</body>
+</html>
