@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member Profile</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+<!-- BACKGROUND -->
+<div class="overlay"></div>
+
+<div class="scene">
+
+    <!-- ENVELOPE -->
+    <div class="envelope" id="envelope">
+
+        <div class="envelope-front">
+            📩 PROFILE ENVELOPE
+            <p>Click to unlock resume</p>
+        </div>
+
+        <div class="envelope-back">
+            <button class="open-btn" onclick="openResume()">
+                📖 เปิดดูประวัติ
+            </button>
+        </div>
+
+    </div>
+
+    <!-- RESUME CARD -->
+    <div class="resume-popup" id="resume">
+
+        <div class="resume-container">
+
+            <!-- LEFT SIDE -->
+            <div class="resume-left">
+
+                <img src="" alt="profile">
+
+                <h1>พิชญาภา อมาตยกุล</h1>
+                <p class="role">IT Support</p>
+
+                <div class="contact">
+                    <h2>Contact</h2>
+                    <p>📞 091-751-4944 </p>
+                    <p>📧 lemonsouptepzaaa@gmail.com</p>
+                    <p>📍 ประเทศไทย , ราชบุรี </p>
+                </div>
+
+                <div class="skills">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>WordPress</li>
+                        <li>Canva</li>
+                        <li>Microsoft Excel</li>
+                        <li>Adobe Premiere Pro</li>
+                        <li>Sketchup</li>
+                    </ul>
+                </div>
+
+            <!-- RIGHT SIDE -->
+            <div class="resume-right">
+
+                <details open>
+                    <summary style="color: black;">👤 About Me</summary>
+                    <p style="color: black;">
+                        นักศึกษาสาขาเทคโนโลยีสารสนเทศ  
+                        สนใจการออกแบบกราฟฟิก ชอบการออกแบบเว็บที่มีความทันสมัยและ interactive
+                    </p>
+                </details>
+
+                <details>
+                    <summary style="color: black;">🎓 Education</summary>
+                    <p style="color: black;">มหาวิทยาลัยสวนดุสิต - IT (GPA 3.38)</p>
+                    <p style="color: black;">โรงเรียนราชโบริกานุเคราะห์ ราชบุรี (GPA 3.10)</p>
+                </details>
+
+                <details>
+                    <summary style="color: black;">💼 Experience</summary>
+                    <ul style="color: black;">
+                        <li>ศูนย์ทดสอบ มหาวิทยาลัยสวนดุสิต - ผู้ช่วยประสานงาน</li>
+                        <li>ศูนย์การศึกษาพิเศษ คณะครุศาสตร์ มหาวิทยาลัยสวนดุสิต - ดูแลเว็บไซต์ / Infographic</li>
+                    </ul>
+                  
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="../js/script.js"></script>
+
+</body>
+</html>
