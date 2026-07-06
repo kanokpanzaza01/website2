@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member Profile</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+<!-- BACKGROUND -->
+<div class="overlay"></div>
+
+<div class="scene">
+
+    <!-- ENVELOPE -->
+    <div class="envelope" id="envelope">
+
+        <div class="envelope-front">
+            📩 PROFILE ENVELOPE
+            <p>Click to unlock resume</p>
+        </div>
+
+        <div class="envelope-back">
+            <button class="open-btn" onclick="openResume()">
+                📖 เปิดดูประวัติ
+            </button>
+        </div>
+
+    </div>
+
+    <!-- RESUME CARD -->
+    <div class="resume-popup" id="resume">
+
+        <div class="resume-container">
+
+            <!-- LEFT SIDE -->
+            <div class="resume-left">
+
+                <img src="../images/member01.png" alt="profile">
+
+                <h1>กนกพันธุ์ ทองเปราะ</h1>
+                <p class="role">Web Developer / IT Support</p>
+
+                <div class="contact">
+                    <h2>Contact</h2>
+                    <p>📞 098-828-9643</p>
+                    <p>📧 kanokpanzaza01@gmail.com</p>
+                    <p>📍 กรุงเทพมหานคร</p>
+                    <p>🎂 14 พฤษภาคม 2550</p>
+                    <p>🌏 สัญชาติไทย</p>
+                </div>
+
+                <div class="skills">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>WordPress</li>
+                        <li>Git & GitHub</li>
+                        <li>Python</li>
+                        <li>Canva</li>
+                        <li>Microsoft Office</li>
+                        <li>Adobe Premiere Pro</li>
+                        <li>Blender</li>
+                    </ul>
+                </div>
+
+                <div class="languages">
+                    <h2>Languages</h2>
+                    <ul>
+                        <li>ไทย (Native)</li>
+                        <li>อังกฤษ (Basic)</li>
+                        <li>จีน (Basic)</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- RIGHT SIDE -->
+            <div class="resume-right">
+
+                <details open>
+                    <summary>👤 About Me</summary>
+                    <p>
+                        นักศึกษาสาขาเทคโนโลยีสารสนเทศ  
+                        สนใจการพัฒนาเว็บไซต์ UX/UI และระบบ Frontend  
+                        ชอบการออกแบบเว็บที่มีความทันสมัยและ interactive
+                    </p>
+                </details>
+
+                <details>
+                    <summary>🎓 Education</summary>
+                    <p>มหาวิทยาลัยสวนดุสิต - IT (GPA 3.57)</p>
+                    <p>โรงเรียนสวนกุหลาบวิทยาลัย ธนบุรี (GPA 3.50)</p>
+                    <p>โรงเรียนขจรโรจน์วิทยา (GPA 3.70)</p>
+                </details>
+
+                <details>
+                    <summary>💼 Experience</summary>
+                    <ul>
+                        <li>ศูนย์ทดสอบ มหาวิทยาลัยสวนดุสิต - ผู้ช่วยประสานงาน</li>
+                        <li>สำนักงานส่งเสริมวิชาการ - ดูแลเว็บไซต์ / Infographic</li>
+                        <li>ศูนย์แนะแนว - งานเอกสารและประสานงาน</li>
+                    </ul>
+                </details>
+
+                <details>
+                    <summary>🚀 Projects</summary>
+                    <ul>
+                        <li>Website HTML / CSS Portfolio</li>
+                        <li>WordPress Website</li>
+                        <li>GitHub Project</li>
+                        <li>Python Mini Project</li>
+                        <li>Excel Dashboard</li>
+                    </ul>
+                </details>
+
+                <details>
+                    <summary>🎯 Activities</summary>
+                    <ul>
+                        <li>การแสดงเชิดสิงโต</li>
+                        <li>กิจกรรมมหาวิทยาลัย</li>
+                        <li>งานออกแบบสื่อ / อินโฟกราฟิก</li>
+                    </ul>
+                </details>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="../js/script.js"></script>
+
+</body>
+</html>
